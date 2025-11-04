@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Employee info:</h3>
+	<table border="1">
+		<col>
+			<th>Employee ID</th>
+			<th>Employee Name</th>
+			<th>Salary</th>
+			<th>Department</th>
+		</col>
+		<tr>
+			<td th:text = "${empObj.id}">	</td>
+			<td th:text = "${empObj.name}">	</td>
+			<td th:text = "${empObj.salary}">	</td>
+			<td th:text = "${empObj.department}">	</td>
+		</tr>
+		
+	</table>
+</body>
+</html>
