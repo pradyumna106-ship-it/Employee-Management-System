@@ -6,12 +6,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fb;
+	justify-content: center;
+	align-items: center;
     margin: 0;
     padding: 0;
 }
-form {
-    margin-top: 15px;
-}
+
 
 form {
     margin-top: 15px;
@@ -115,6 +115,7 @@ tr:nth-child(even) {
     width: 80%;              /* 🔥 wider */
     max-width: 800px;        /* 🔥 increased width */
     background: #ffffff;
+	text-align: center;
     padding: 35px 40px 30px 40px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
